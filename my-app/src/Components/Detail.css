@@ -1,0 +1,92 @@
+.Detail-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding-top: 2rem;
+    font-family: serif;
+}
+.Detail-sub{
+    width: 60%;
+    text-align: center;
+}
+.Detail-sub img{
+    width: 90%;
+    padding-top: 3rem;
+}
+
+.Detail-sub h4{
+    padding-top: 1rem;
+}
+.Detail-sub p{
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+/* ------------------------------- */
+
+.Comment-main{
+    width: 90%;
+    margin: auto;;
+    border: 1px solid white;
+    margin-top: 5rem;
+    height: 20rem;
+}
+.Comment-main p{
+    text-align: left;
+}
+.Comment-main hr{
+    margin-left: 3rem;
+}
+
+@media (width < 480px) {
+    .Detail-main{
+        display: block;
+        padding-top: 0;
+    }
+    .Detail-sub{
+        width: 100%;
+    }
+    .Detail-sub img{
+        padding-top: 0;
+    }
+}
+
+@media (max-width:576px) and (min-width:480px) {
+    .Detail-main{
+        display: block;
+        padding-top: 0;
+    }
+    .Detail-sub{
+        width: 100%;
+    }
+    .Detail-sub img{
+        padding-top: 0;
+    }
+}
+
+@media (max-width:768px) and (min-width:576px) {
+    .Detail-main{
+        display: block;
+        padding-top: 0;
+    }
+    .Detail-sub{
+        width: 100%;
+    }
+    .Detail-sub img{
+        padding-top: 0;
+    }
+}
+
+@media (max-width:992px) and (min-width:768px) {
+    .Detail-main{
+        padding-top: 0;
+    }
+    .Detail-sub{
+        width:50%;
+    }
+    .Detail-sub img{
+        padding-top: 0;
+    }
+}

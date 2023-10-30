@@ -1,0 +1,210 @@
+.sideimage {
+    position: absolute;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sideimage2 {
+    position: absolute;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tabdiv {
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.logstyle {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    padding-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.logstyle form {
+    padding-top: 1rem;
+}
+
+.logstyle a {
+    text-decoration: none;
+    color: rgb(115, 103, 240);
+}
+
+.logstyle hr {
+    width: 45%;
+    margin: .9rem;
+}
+
+.logIntro {
+    display: block;
+    color: rgb(92, 89, 101);
+    font-family: Public Sans, sans-serif, -apple-system, blinkmacsystemfont, Segoe UI, roboto, Helvetica Neue, arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol;
+    background-blend-mode: color-burn;
+}
+
+.logIntro img {
+    height: 3.5rem;
+    display: flex;
+    transform: translate(-1.5rem, .4rem);
+
+}
+
+.logIntro h1 {
+    margin: 0;
+    font-size: 1.125rem;
+    text-align: left;
+    padding-top: 2rem;
+    letter-spacing: normal;
+    font-weight: bold;
+}
+
+.logIntro p {
+    margin: 0;
+    text-align: left;
+    padding-top: .2rem;
+    font-size: 15px;
+}
+
+
+.loginbutton {
+    text-align: center;
+}
+
+.loginbutton button {
+    background-color: rgb(115, 103, 240);
+    width: 100%;
+}
+
+.iconbutton1 {
+    background-color: #dbd8f0;
+    color: #19079c;
+    border: 0;
+
+    &:hover {
+        background-color: #afa9ec;
+        color: #19079c;
+    }
+}
+
+.iconbutton2 {
+    background-color: rgb(235, 198, 198);
+    color: red;
+    border: 0;
+
+    &:hover {
+        background-color: rgb(231, 154, 154);
+        color: red;
+    }
+}
+
+.iconbutton3 {
+    background-color: #bee2f3;
+    color: #28a5df;
+    border: 0;
+
+    &:hover {
+        background-color: #94d4f2;
+        color: #1da2e0;
+    }
+}
+
+.signupname {
+    display: flex;
+}
+
+@media (width <=480px) {
+
+    .sideimage{
+        display: none;
+    }
+
+    .signupname {
+        display: block;
+    }
+}
+
+@media (max-width:576px) and (min-width:481px) {
+
+    .sideimage{
+        display: none;
+    }
+    
+    .logstyle {
+        width: 60%;
+    }
+
+    .signupname {
+        display: block;
+    }
+
+}
+
+@media (max-width:768px) and (min-width:577px) {
+
+    .sideimage{
+        display: none;
+    }
+    
+    .logstyle {
+        width: 60%;
+    }
+
+    .signupname {
+        display: block;
+    }
+
+}
+
+@media (max-width:992px) and (min-width:769px) {
+
+    .sideimage{
+        display: none;
+    }
+    
+    .logstyle {
+        width: 60%;
+    }
+
+}
+
+@media (max-width:1200px) and (min-width:993px) {
+
+    .sideimage{
+        display: none;
+    }
+    
+    .logstyle {
+        width: 60%;
+    }
+
+}
+
+@media (max-width:1400px) and (min-width:1201px) {
+
+    .logstyle {
+        width: 30%;
+        position: relative;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+}
+
+@media (width >=1401px) {
+    
+    
+    .logstyle {
+        width: 30%;
+        position: relative;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
