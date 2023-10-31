@@ -28,6 +28,7 @@ function SignUp({ Firstname, SetFname, Secoundname, SetSname, Email, SetEmail, P
 
             console.log(values.data);
             localStorage.setItem('user', JSON.stringify(values.data))
+            localStorage.setItem('token', values.data.token)
             nav('/userhome');
             handlehide()
         }
